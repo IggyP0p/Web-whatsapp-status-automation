@@ -1,4 +1,6 @@
 from src import agenda, apontamentos
 
 
-agenda.verificar_diario()
+apontamentos.agendar("2026-10-14", "10:30", "Testando....", "imgs/teste.png")
+
+agenda.iniciar()

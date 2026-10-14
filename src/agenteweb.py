@@ -7,9 +7,11 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-URL_IMAGEM = Path(__file__).parent.parent / "imgs" / "asuka.jpg"
 
-def postar_status():
+def postar_status(url_imagem: str):
+
+    # Pega a imagem na pasta de imagens
+    URL_IMAGEM = Path(__file__).parent.parent / url_imagem
 
     options = Options()
     options.add_argument("-profile")
