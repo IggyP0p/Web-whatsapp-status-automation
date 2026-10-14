@@ -1,4 +1,4 @@
-from src import nav
+from src import agenda, apontamentos
 
 
-nav.postar_status()
+agenda.verificar_diario()
