@@ -16,7 +16,7 @@ def postar_status(url_imagem: str):
     options = Options()
     options.add_argument("-profile")
     options.add_argument(
-        "/home/iggy/.config/mozilla/firefox/o4ovhji8.default-release"
+        "SEU_PROFILE_DO_FIREFOX_AQUI"
     )
 
     driver = webdriver.Firefox(options=options)
